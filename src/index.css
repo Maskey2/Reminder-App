@@ -1,0 +1,34 @@
+body{
+
+    background: rgba(230,223,147,1);
+}
+.App {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-family: "Century Gothic";
+    text-align: center;
+    font-size: 36px;
+    margin-top: 15px;
+    border-bottom: 3px solid darkblue;
+}
+input{
+    margin: 5px;
+}
+.reminder-form {
+    padding: 5px;
+}
+.list-item{
+    display: inline-block;
+}
+.delete-button{
+    float: right;
+    padding-left: 5px;
+}
+.responsive {
+    margin: 10px;
+    height: 300px;
+}
